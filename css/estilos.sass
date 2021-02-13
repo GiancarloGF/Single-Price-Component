@@ -1,0 +1,160 @@
+$layout-breakpoint-small: 837px
+
+$color-1: rgb(43,179,177)
+$color-2: rgb(74,190,189)
+$color-3: #d9fd39
+$c-light-Gray: hsl(204, 43%, 93%)
+$c-grayishBlue: hsl(218, 22%, 67%)
+
+$f-karla: 'Karla', sans-serif
+
+$fs-16: 16px
+
+$borderr: 10px
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    background-color: $c-light-Gray
+    .contenedor
+        width: 80vw
+        height: 80vh
+        margin: auto
+        margin-top: 10vh
+        background-color: #fff
+        border-radius: $borderr
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+        @media (max-width: $layout-breakpoint-small)
+             
+            width: 100vw
+            height: 100vh
+            margin: 0
+           
+            
+        .top
+            height: 45%
+            width: 100%
+            // background-color: $c-grayishBlue
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            padding: 10px
+            @media (max-width: $layout-breakpoint-small)
+                height: 30%
+                align-content: start
+            
+            
+
+            .tone
+                color: $color-2
+                font-size: 30px
+                font-weight: 700
+                @media (max-width: $layout-breakpoint-small)
+                    font-size: 20px
+            .ttwo
+                color: $color-3
+                font-weight: 700
+                font-size: 20px
+                @media (max-width: $layout-breakpoint-small)
+                    font-size: 15px
+            .tthree
+                color: $c-grayishBlue
+                font-size: 10px
+        .bottom
+            height: 55%
+            width: 100%
+            display: flex
+            border-bottom-left-radius: $borderr
+            border-bottom-right-radius: $borderr
+            // background-color: $color-1
+            @media (max-width: $layout-breakpoint-small)
+                flex-direction: column
+                height: 70%
+                border-radius: 0
+            .bottom-left
+                width: 50%
+                height: 100%
+                background-color: $color-1
+                border-bottom-left-radius: $borderr
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                padding: 10px
+                @media (max-width: $layout-breakpoint-small)
+                    width: 100%
+                    border-radius: 0
+                
+            .bottom-right
+                width: 50%
+                height: 100%
+                background-color: $color-2
+                border-bottom-right-radius: $borderr
+                display: flex
+                flex-direction: column
+                // justify-content: center
+                // align-content: center
+                @media (max-width: $layout-breakpoint-small)
+                    width: 100%
+                    border-radius: 0
+                    
+                p
+                    color: $c-light-Gray
+                    font-size: 20px
+                    font-weight: 700
+                    margin-left: 4rem 
+                    margin-top: 1rem
+                    @media (max-width: $layout-breakpoint-small)
+                        margin: auto
+                ul
+                    list-style: none
+                    // text-align: center
+                    margin-left: 4rem
+                    margin-top: 1rem 
+                    font-family: $f-karla
+                    color: $c-light-Gray
+                    @media (max-width: $layout-breakpoint-small)
+                        margin: auto
+
+                    li
+                        margin-bottom: 5px
+                        
+                                 
+
+
+.text
+    font-family: $f-karla 
+    margin-left: 4rem
+    @media (max-width: $layout-breakpoint-small)
+        margin-left: 1rem
+
+.tw
+    color: $c-light-Gray
+
+.text span
+    font-size: 30px
+
+.monthly
+    font-weight: 700
+    font-size: 20px
+ 
+button
+     border-style: none
+     width: 75%
+     background-color: $color-3
+     height: 45px
+     border-radius: 5px
+     margin: 0 auto 0 auto
+     color: $c-light-Gray
+     font-family: $f-karla
+     font-weight: 700
+     font-size: 20px
+     cursor: pointer
+
+// media queries
+
+
+         
+  

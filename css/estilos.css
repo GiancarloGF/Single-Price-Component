@@ -1,0 +1,218 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5eff5;
+}
+
+body .contenedor {
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 837px) {
+  body .contenedor {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+}
+
+body .contenedor .top {
+  height: 45%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .top {
+    height: 30%;
+    -ms-flex-line-pack: start;
+        align-content: start;
+  }
+}
+
+body .contenedor .top .tone {
+  color: #4abebd;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .top .tone {
+    font-size: 20px;
+  }
+}
+
+body .contenedor .top .ttwo {
+  color: #d9fd39;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .top .ttwo {
+    font-size: 15px;
+  }
+}
+
+body .contenedor .top .tthree {
+  color: #98a6bd;
+  font-size: 10px;
+}
+
+body .contenedor .bottom {
+  height: 55%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 70%;
+    border-radius: 0;
+  }
+}
+
+body .contenedor .bottom .bottom-left {
+  width: 50%;
+  height: 100%;
+  background-color: #2bb3b1;
+  border-bottom-left-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .bottom .bottom-left {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+body .contenedor .bottom .bottom-right {
+  width: 50%;
+  height: 100%;
+  background-color: #4abebd;
+  border-bottom-right-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .bottom .bottom-right {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+body .contenedor .bottom .bottom-right p {
+  color: #e5eff5;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .bottom .bottom-right p {
+    margin: auto;
+  }
+}
+
+body .contenedor .bottom .bottom-right ul {
+  list-style: none;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-family: "Karla", sans-serif;
+  color: #e5eff5;
+}
+
+@media (max-width: 837px) {
+  body .contenedor .bottom .bottom-right ul {
+    margin: auto;
+  }
+}
+
+body .contenedor .bottom .bottom-right ul li {
+  margin-bottom: 5px;
+}
+
+.text {
+  font-family: "Karla", sans-serif;
+  margin-left: 4rem;
+}
+
+@media (max-width: 837px) {
+  .text {
+    margin-left: 1rem;
+  }
+}
+
+.tw {
+  color: #e5eff5;
+}
+
+.text span {
+  font-size: 30px;
+}
+
+.monthly {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+button {
+  border-style: none;
+  width: 75%;
+  background-color: #d9fd39;
+  height: 45px;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  color: #e5eff5;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=estilos.css.map */
